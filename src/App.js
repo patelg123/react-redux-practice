@@ -7,7 +7,7 @@ class App extends Component {
   }
 
   render() {
-    return <HelloWorld tech={this.state.tech}/>
+    return <HelloWorld tech={store.getState().tech}/>
   }
 }
 
